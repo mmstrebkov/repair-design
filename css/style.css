@@ -689,3 +689,13 @@ img {
 @media screen and (max-height: 560px) {
   .hero__scroll-down {
     display: none; } }
+
+@media screen and (max-width: 460px) {
+  .modal__dialog {
+    width: 96%; } }
+
+@media screen and (max-height: 460px) {
+  .modal__dialog {
+    height: 96%; }
+  .modal__input {
+    margin-bottom: 2rem; } }
