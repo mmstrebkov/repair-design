@@ -1,0 +1,25 @@
+.button-up
+    position: fixed
+    left: 20px
+    margin: 0
+    bottom: 35px
+    font-family: 'Yeseva One', cursive
+    font-size: 1rem
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 1rem 2rem
+    background-color: $dark
+    text-transform: uppercase
+    text-decoration: none 
+    color: $light
+    transition: 4s
+    &::after
+        content: ''
+        background: url('../img/arrow-down.svg') no-repeat center
+        transform: rotate(180deg)
+        width: 25px
+        height: 25px
+        border: 2px solid $primary
+        border-radius: 50%
+        margin-left: 1rem

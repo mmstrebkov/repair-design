@@ -414,6 +414,32 @@ img {
         background-color: #E3B873;
         margin: 0 10px; }
 
+.button-up {
+  position: fixed;
+  left: 20px;
+  margin: 0;
+  bottom: 35px;
+  font-family: 'Yeseva One', cursive;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #131313;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  transition: 4s; }
+  .button-up::after {
+    content: '';
+    background: url("../img/arrow-down.svg") no-repeat center;
+    transform: rotate(180deg);
+    width: 25px;
+    height: 25px;
+    border: 2px solid #E3B873;
+    border-radius: 50%;
+    margin-left: 1rem; }
+
 .header {
   position: fixed;
   left: 0;
@@ -684,7 +710,9 @@ img {
   .hero__button {
     display: block;
     min-width: 22.86rem;
-    margin-bottom: 1.85rem; } }
+    margin-bottom: 1.85rem; }
+  .button-up {
+    display: none; } }
 
 @media screen and (max-height: 560px) {
   .hero__scroll-down {
