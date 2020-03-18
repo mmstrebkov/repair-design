@@ -22,7 +22,20 @@
     .types
         .card
             &__title
-                min-height: 2.9rem  
+                min-height: 2.9rem
+
+@media screen and ( max-width:900px )
+    .row
+        flex-direction: column
+        .col-50
+            width: 100%
+            &--two
+                margin-top: 3rem
+    .swiper-slider-image
+        width: 100%
+        
+
+
 
 @media screen and ( max-width:760px )
     .types
@@ -33,6 +46,8 @@
             margin-bottom: 5rem
         .card__text
             margin-left: 0
+
+
 
 @media screen and ( max-width:570px )
     .contacts
